@@ -4,20 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Telephone Number Validator</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div>
-      <h1>Code T</h1>
-      <h2>Telephone Number Validator</h2>
-    </div>
-    <div>
-      <label for="user-input">Enter a Phone Number:</label>
-      <input type="text" id="user-input" />
-    </div>
-    <div id="results-div"></div>
-    <div>
-      <button id="check-btn">Check</button>
-      <button id="clear-btn">Clear</button>
+    <h1>Telephone Number Validator</h1>
+    <div class="container-outer">
+      <div id="camera-bump"></div>
+      <div class="container-inner">
+        <div>
+          <label for="user-input">Enter a Phone Number:</label>
+          <input type="text" id="user-input" />
+        </div>
+        <div id="results-div"></div>
+      </div>
+      <div id="container-btn">
+        <button id="check-btn">Check</button>
+        <button id="clear-btn">Clear</button>
+      </div>
     </div>
     <script src="./app.js"></script>
   </body>

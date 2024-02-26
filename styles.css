@@ -1,1 +1,76 @@
-/* https://telephone-number-validator.freecodecamp.rocks/ */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: #1b1b32;
+  font-size: 2rem;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.container-outer {
+  background: black;
+  width: 280px;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#camera-bump {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background: whitesmoke;
+  color: whitesmoke;
+  margin: 10px auto;
+}
+
+.container-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: whitesmoke;
+  width: 260px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+label,
+input {
+  display: block;
+  margin: 10px 0;
+}
+
+#user-input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+}
+
+#results-div {
+  height: 300px;
+  margin: 10px 0;
+  /* border: 1px solid red; */
+  padding: 5px;
+  margin: 10px;
+}
+
+#container-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 5px;
+}
