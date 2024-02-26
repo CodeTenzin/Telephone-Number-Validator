@@ -23,3 +23,28 @@ const clearBtnHandler = () => {
 
 checkBtn.addEventListener("click", checkBtnHandler);
 clearBtn.addEventListener("click", clearBtnHandler);
+
+/*
+555-555-5555
+\d{3}-\d{3}-\d{4}
+
+(555)555-5555
+(\d{3})\d{3}-d{4}
+
+(\d{3}|(\d{3}))-?\d{3}-\d{4}
+
+(555) 555-5555
+(\d{3})\s\d{3}-\d{4}
+
+(\d{3}|(\d{3}))-?\s?\d{3}-\d{4}
+
+555 555 5555
+\d{3}\s\d{3}\s${4}
+
+(\d{3}|(\d{3}))-?\s?\d{3}-?\s\d{4}
+
+1 555 555 5555
+1\s\d{3}\s\d{3}\s\d{4}
+
+^1?\s?(\d{3}|(\d{3}))-?\s?\d{3}-?\s\d{4}
+*/
